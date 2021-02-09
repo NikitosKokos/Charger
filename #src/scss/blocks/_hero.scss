@@ -4,7 +4,8 @@
     background-color: #3cd072;
     padding: 60px 0px 0px 0px;
     display: flex;
-    @media (max-width: $md4+px){
+    z-index: 2;
+    @media (max-width: $md3+px){
         padding: 30px 0px 0px 0px;
     }
     &__bg {
@@ -77,18 +78,15 @@
             width: 56px;
             height: 56px;
             background: url('../img/hero/search.png') center no-repeat, $white;
+            background-size: contain;
             border-radius: 50%;
         }
         @media (max-width: $md2+px){
-            padding: 0px 0px 0px 60px;
+            padding: 0px 0px 0px 70px;
             margin: 0px 0px 30px 0px;
             font-size: 28px;
             span{
                 font-size: 28px;
-            }
-            &:before{
-                width: 50px;
-                height: 50px;
             }
         }
         @media (max-width: $md4+px){
@@ -159,6 +157,8 @@
             height: 100%;
             font-size: 16px;
             color: $white;
+            box-shadow: none;
+            border-radius: 0;
             &::placeholder{
                 font-size: 16px;
                 color: $white;
@@ -201,9 +201,9 @@
     }
 
     &__img {
-        
+        align-self: flex-end;
         margin: 0px 0px 0px 90px;
-        position: absolute;
+        position: relative;
         bottom: -70px;
         right: 0;
         max-width: 400px;
