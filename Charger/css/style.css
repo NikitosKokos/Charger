@@ -1057,7 +1057,6 @@ button.swiper-pagination-bullet {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 15px;
   border: 2px solid #fff;
   margin: 0px 25px 0px 0px;
 }
@@ -1066,6 +1065,10 @@ button.swiper-pagination-bullet {
   background: transparent;
   width: 100%;
   height: 100%;
+  padding: 0px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 16px;
   color: #fff;
   -webkit-box-shadow: none;
@@ -1330,6 +1333,202 @@ button.swiper-pagination-bullet {
   padding: 0 2.5px;
 }
 
+.run {
+  position: relative;
+  padding: 70px 0px 0px 0px;
+  background-color: #3cd072;
+}
+
+.run__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.run__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.run__title {
+  font-size: 36px;
+  font-family: "MyriadPro", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  padding: 0px 0px 0px 100px;
+  margin: 0px 0px 40px 0px;
+}
+
+.run__title:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 72px;
+  height: 72px;
+  background: url("../img/run/busines.png") center no-repeat;
+  background-size: contain !important;
+}
+
+.run__info {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  margin: 0px 0px 50px 0px;
+}
+
+.run__li {
+  position: relative;
+  padding: 0px 0px 0px 80px;
+  font-size: 24px;
+  line-height: 1.1;
+  font-family: "MyriadPro", sans-serif;
+  color: #fff;
+  margin: 0px 0px 45px 0px;
+}
+
+.run__li:last-child {
+  margin: 0px 0px 20px 0px;
+}
+
+.run__li:before {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  background: url("../img/run/check.png") center no-repeat;
+  background-size: contain !important;
+}
+
+.run__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0px 0px 0px 5px;
+}
+
+.run__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.run__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.signup {
+  background: #000;
+  padding: 55px 0 50px 0;
+}
+
+.signup__label {
+  font-size: 24px;
+  margin: 0px 0px 20px 0px;
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.signup__input {
+  position: relative;
+  height: 48px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0px 25px 0px 0px;
+  background: #fff;
+}
+
+.signup__input input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__input input::-webkit-input-placeholder {
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__input input::-moz-placeholder {
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__input input:-ms-input-placeholder {
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__input input::-ms-input-placeholder {
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__input input::placeholder {
+  color: #3cd072;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+}
+
+.signup__btn {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #3cd072;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "MyriadPro", sans-serif;
+  padding: 0 75px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 ._container {
   max-width: 1200px;
   margin: 0 auto;
@@ -1366,6 +1565,14 @@ body.hidden {
 }
 */
 
+@media (min-width: 600px) {
+  .signup__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media (min-width: 767.98px) {
   .steps__body {
     margin: 0 -25px;
@@ -1377,12 +1584,20 @@ body.hidden {
         -ms-flex: 0 0 33.333%;
             flex: 0 0 33.333%;
   }
+
+  .run__list {
+    margin: 0px 0px 55px 0px;
+  }
 }
 
 @media (min-width: 992px) {
   .hero__btn:hover {
     background: transparent;
     color: #fff;
+  }
+
+  .signup__btn:hover {
+    background: transparent;
   }
 }
 
@@ -1472,6 +1687,42 @@ body.hidden {
     margin: 0px 0px 30px 0px;
   }
 
+  .run__title {
+    font-size: 28px;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 80px;
+  }
+
+  .run__title:before {
+    width: 60px;
+    height: 60px;
+  }
+
+  .run__info {
+    margin: 0px 0px 40px 0px;
+    font-size: 15px;
+  }
+
+  .run__li {
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+    padding: 0px 0px 0px 60px;
+  }
+
+  .run__li:before {
+    width: 40px;
+    height: 40px;
+    top: -10px;
+  }
+
+  .signup__label {
+    font-size: 22px;
+  }
+
+  .signup__btn {
+    padding: 0 60px;
+  }
+
   ._container {
     max-width: 750px;
   }
@@ -1527,6 +1778,26 @@ body.hidden {
     font-size: 32px;
   }
 
+  .run__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .signup {
+    padding: 40px 0;
+  }
+
+  .signup__label {
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .signup__btn {
+    padding: 0 40px;
+  }
+
   ._container {
     max-width: none;
     padding: 0 10px;
@@ -1536,6 +1807,14 @@ body.hidden {
 @media (max-width: 600px) {
   .items__info {
     padding: 60px 0px 0px 0px;
+  }
+
+  .signup__input {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .signup__btn {
+    width: 100%;
   }
 }
 
@@ -1589,6 +1868,37 @@ body.hidden {
 
   .slider__title {
     font-size: 30px;
+  }
+
+  .run {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .run__title {
+    font-size: 24px;
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .run__title:before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .run__li {
+    margin: 0px 0px 30px 0px;
+    font-size: 18px;
+    padding: 0px 0px 0px 40px;
+  }
+
+  .run__li:before {
+    width: 30px;
+    height: 30px;
+    top: -7px;
+  }
+
+  .signup__label {
+    font-size: 18px;
   }
 }
 
@@ -1648,3 +1958,7 @@ body.hidden {
 }
 
 .webp .hero__title:before{ background: url(../img/hero/search.webp) center no-repeat, #fff; }
+
+.webp .run__title:before{ background: url(../img/run/busines.webp) center no-repeat; }
+
+.webp .run__li:before{ background: url(../img/run/check.webp) center no-repeat; }
