@@ -9,6 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
         loopedSlides: 10,
       });
 
+
+      const rating = document.querySelectorAll('.stars-item-top');
+      if(rating.length > 0){
+        const setRatingCount = el => {
+          const ratingActive = el.querySelector('.stars-item-top__active');
+          const ratingActiveWidth = el.dataset.count / 0.05;
+          ratingActive.style.width = `${ratingActiveWidth}%`
+        }
+
+        rating.forEach(el => setRatingCount(el));  
+      }
+      
+
+
 }); // end
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
 let forms = document.querySelectorAll('form');
