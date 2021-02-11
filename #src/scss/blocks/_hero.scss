@@ -78,7 +78,7 @@
             width: 56px;
             height: 56px;
             background: url('../img/hero/search.png') center no-repeat, $white;
-            background-size: contain;
+            background-size: contain !important;
             border-radius: 50%;
         }
         @media (max-width: $md2+px){

@@ -1011,7 +1011,7 @@ button.swiper-pagination-bullet {
   width: 56px;
   height: 56px;
   background: url("../img/hero/search.png") center no-repeat, #fff;
-  background-size: contain;
+  background-size: contain !important;
   border-radius: 50%;
 }
 
@@ -1529,6 +1529,66 @@ button.swiper-pagination-bullet {
   transition: all .3s ease-in-out;
 }
 
+.win {
+  padding: 70px 0 140px 0;
+}
+
+.win__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.win__text {
+  font-size: 16px;
+  max-width: 650px;
+  text-align: center;
+  margin: 0 0 60px 0;
+  line-height: calc(24 / 16);
+}
+
+.win__img {
+  max-width: 400px;
+  margin: 0 0 80px 0;
+}
+
+.win__img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.win__btn {
+  height: 48px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  padding: 0 40px;
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #3cd072;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 ._container {
   max-width: 1200px;
   margin: 0 auto;
@@ -1599,6 +1659,11 @@ body.hidden {
   .signup__btn:hover {
     background: transparent;
   }
+
+  .win__btn:hover {
+    background: #3cd072;
+    color: #fff;
+  }
 }
 
 @media (max-width: 1212px) {
@@ -1617,6 +1682,10 @@ body.hidden {
   .item-steps__title {
     font-size: 22px;
     margin: 0px 0px 30px 0px;
+  }
+
+  .win {
+    padding: 60px 0 100px 0;
   }
 
   ._container {
@@ -1723,6 +1792,18 @@ body.hidden {
     padding: 0 60px;
   }
 
+  .win {
+    padding: 60px 0 80px 0;
+  }
+
+  .win__text {
+    margin: 0 0 40px 0;
+  }
+
+  .win__img {
+    margin: 0 0 60px 0;
+  }
+
   ._container {
     max-width: 750px;
   }
@@ -1796,6 +1877,10 @@ body.hidden {
 
   .signup__btn {
     padding: 0 40px;
+  }
+
+  .win__text {
+    max-width: none;
   }
 
   ._container {
@@ -1899,6 +1984,20 @@ body.hidden {
 
   .signup__label {
     font-size: 18px;
+  }
+
+  .win__text {
+    font-size: 15px;
+  }
+
+  .win__img {
+    max-width: none;
+    margin: 0 0 40px 0;
+  }
+
+  .win__btn {
+    font-size: 15px;
+    padding: 0 30px;
   }
 }
 
