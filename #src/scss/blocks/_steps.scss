@@ -79,11 +79,10 @@
             height: auto;
             object-fit: contain;
         }
-        @media (min-width: $md4+px){
-            @media (max-width: $md3+px){
-                width: 300px;
-                margin: 0 auto;
-            }
+
+        @media (max-width: $md3+px){
+            width: 300px;
+            margin: 0 auto;
         }
     }
 }

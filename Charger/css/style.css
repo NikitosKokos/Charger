@@ -1745,6 +1745,222 @@ button.swiper-pagination-bullet {
   background-size: contain !important;
 }
 
+.contact {
+  position: relative;
+  background-color: #3cd072;
+  padding: 90px 0 70px 0;
+}
+
+.contact__content {
+  position: relative;
+  z-index: 2;
+}
+
+.contact__title {
+  font-family: "MyriadPro", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+
+.contact__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.form-contact__input {
+  margin: 0px 0px 25px 0px;
+  width: 100%;
+  height: 48px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+}
+
+.form-contact__input input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  background: transparent;
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__input input::-webkit-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__input input::-moz-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__input input:-ms-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__input input::-ms-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__input input::placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea {
+  margin: 0px 0px 25px 0px;
+  width: 100%;
+  height: 192px;
+  background: #fff;
+  position: relative;
+}
+
+.form-contact__textarea textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 20px 15px;
+  background: transparent;
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea textarea::-webkit-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea textarea::-moz-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea textarea:-ms-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea textarea::-ms-input-placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__textarea textarea::placeholder {
+  color: #3cd072;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+}
+
+.form-contact__btn {
+  background: #000;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 90px;
+  color: #fff;
+  font-family: "MyriadPro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.social-contact__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.social-contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 25px 0px;
+}
+
+.social-contact__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.social-contact__item img {
+  width: 49px;
+  height: 49px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0px 20px 0px 0px;
+}
+
+.social-contact__item span {
+  font-size: 24px;
+  color: #fff;
+  font-family: "MyriadPro", sans-serif;
+  position: relative;
+}
+
+.social-contact__item span:before {
+  content: '';
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  height: 2px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 ._container {
   max-width: 1200px;
   margin: 0 auto;
@@ -1796,6 +2012,27 @@ body.hidden {
         -ms-flex-align: center;
             align-items: center;
   }
+
+  .contact__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -50px;
+  }
+
+  .contact__form {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding: 0 50px;
+  }
+
+  .contact__social {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding: 0 50px;
+  }
 }
 
 @media (min-width: 767.98px) {
@@ -1828,6 +2065,14 @@ body.hidden {
   .win__btn:hover {
     background: #3cd072;
     color: #fff;
+  }
+
+  .form-contact__btn:hover {
+    background: transparent;
+  }
+
+  .social-contact__item:hover span:before {
+    width: 100%;
   }
 }
 
@@ -1987,6 +2232,23 @@ body.hidden {
     padding: 0px 0px 0px 55px;
   }
 
+  .contact {
+    padding: 70px 0 60px 0;
+  }
+
+  .contact__title {
+    font-size: 34px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .form-contact__input {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .form-contact__textarea {
+    margin: 0px 0px 15px 0px;
+  }
+
   ._container {
     max-width: 750px;
   }
@@ -2027,6 +2289,11 @@ body.hidden {
 
   .steps__item:last-child {
     margin: 0px 0px 0px 0px;
+  }
+
+  .item-steps__img {
+    width: 300px;
+    margin: 0 auto;
   }
 
   .slider {
@@ -2112,6 +2379,18 @@ body.hidden {
     height: 40px;
   }
 
+  .contact__title {
+    font-size: 32px;
+  }
+
+  .form-contact__btn {
+    padding: 0 70px;
+  }
+
+  .social-contact__item {
+    margin: 0px 0px 15px 0px;
+  }
+
   ._container {
     max-width: none;
     padding: 0 10px;
@@ -2167,6 +2446,14 @@ body.hidden {
   .count-item-top__count:before {
     width: 20px;
     height: 20px;
+  }
+
+  .contact {
+    padding: 60px 0;
+  }
+
+  .contact__form {
+    margin: 0px 0px 20px 0px;
   }
 }
 
@@ -2343,10 +2630,19 @@ body.hidden {
         -ms-flex-align: center;
             align-items: center;
   }
+}
 
-  .item-steps__img {
-    width: 300px;
-    margin: 0 auto;
+@media (min-width: 600px) and (max-width: 991.98px) {
+  .contact__body {
+    margin: 0 -20px;
+  }
+
+  .contact__form {
+    padding: 0 20px;
+  }
+
+  .contact__social {
+    padding: 0 20px;
   }
 }
 
