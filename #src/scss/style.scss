@@ -54,5 +54,17 @@ body.hidden{
   overflow: hidden;
 }
 
+body{
+	&::-webkit-scrollbar{
+		width: 16px;
+	}
+	&::-webkit-scrollbar-thumb{
+		background: $green;
+	}
+	&::-webkit-scrollbar-track{
+		background: transparent;
+	}
+}
+
 // media
 @import "./base/media";
